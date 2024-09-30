@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color:aliceblue;
+    font-family: Krona One;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+h1 img.icono{
+    width: 54px;
+    height: 54px;
+    margin-left: 10px;
+}

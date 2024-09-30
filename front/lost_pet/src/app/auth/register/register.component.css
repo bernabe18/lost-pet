@@ -1,0 +1,107 @@
+/* Reset básico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .navbar .logo h2 {
+    margin: 0;
+  }
+  
+  .navbar .buttons button {
+    margin-left: 15px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .navbar .buttons .registro-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .navbar .buttons .registro-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .navbar .buttons .iniciar-sesion-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .navbar .buttons .iniciar-sesion-btn:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Contenedor del formulario */
+  .form-container {
+    max-width: 400px;
+    margin: 2cm auto 0 auto; /* Centrado horizontal y margen superior de 2 cm */
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  /* Estilos de los campos del formulario */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #495057;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Estilos del botón de envío */
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #117a8b;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 500px) {
+    .form-container {
+      margin: 2cm 10px 0 10px;
+    }
+  }
+  
